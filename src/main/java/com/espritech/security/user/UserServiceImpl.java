@@ -24,11 +24,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserDto save(UserDto userDto) {
-        System.out.println("test 3");
-        System.out.println("test 7");
-        System.out.println("test 7");
-        System.out.println("test 7");
-        System.out.println("test 7");
+        System.out.println("makka yewina askan wi");
 
         List<String> errors = UserValidator.validate(userDto);
         if (!errors.isEmpty()) {
