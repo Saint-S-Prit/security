@@ -26,6 +26,7 @@ public class UserServiceImpl implements UserService {
     public UserDto save(UserDto userDto) {
         System.out.println("test 3");
         System.out.println("test 7");
+        System.out.println("test 7");
 
         List<String> errors = UserValidator.validate(userDto);
         if (!errors.isEmpty()) {
